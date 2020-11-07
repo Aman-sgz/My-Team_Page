@@ -362,11 +362,17 @@ template {
   display: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
     padding-top: 2rem;
   }
 }
@@ -376,9 +382,15 @@ template {
   font-weight: bold;
   font-style: normal;
   font-size: 36px;
-  line-height: 48px;
   color: #FEF0F5;
   margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    width: 50%;
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -386,12 +398,17 @@ template {
     width: 50%;
     margin-left: 4rem;
     font-size: 45px;
-    margin-top: 0;
   }
 }
 
 .header__description {
   font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .header__description {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -441,8 +458,8 @@ template {
 
 @media screen and (min-width: 768px) {
   .grid-container {
-    -ms-grid-columns: 240px 240px 240px;
-        grid-template-columns: 240px 240px 240px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

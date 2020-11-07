@@ -1,6 +1,10 @@
 header {
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
         display: flex;
+        padding-top: 1.5rem;
+    }   
+
+    @media screen and (min-width: 1200px) {
         padding-top: 2rem;
     }
 }
@@ -10,20 +14,27 @@ header {
     font-weight: bold;
     font-style: normal;
     font-size: 36px;
-    line-height: 48px;
     color: $header-title;
     margin-bottom: 2rem;
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+        margin-top: 0;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 50%;
         margin-left: 4rem;
         font-size: 45px;
-        margin-top: 0;
     }
 }
 
 .header__description {
     font-family: $description, sans-serif;
+
+    @media screen and (min-width: 768px) {
+        width: 40%;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 40%;
