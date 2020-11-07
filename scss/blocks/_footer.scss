@@ -1,0 +1,18 @@
+footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    font-family: $attribution, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: $attribution;
+    padding: 0.2rem;
+}

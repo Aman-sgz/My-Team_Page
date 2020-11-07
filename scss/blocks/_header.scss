@@ -1,0 +1,29 @@
+.header__title {
+    font-family: $title, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    color: $header-title;
+}
+
+.header__description {
+    font-family: $description, sans-serif;
+}
+
+.header__subtitle {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: $header-subtitle;
+}
+
+.header__text {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: $header-text;
+}

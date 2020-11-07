@@ -1,0 +1,105 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    margin-top: 3rem;
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: 240px 240px 240px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    }    
+}
+
+.grid-item {
+    display: flex;
+    padding: 0;
+    margin-bottom: 1.5rem;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 1rem;
+    }
+}
+
+.grid-item:nth-child(even) {
+    padding-top: 4rem;
+}
+
+.grid-item:nth-child(2) {
+    @media screen and (min-width: 768px) {
+        padding-top: 9rem;
+    }
+}
+
+.grid-item:nth-child(5) {
+    @media screen and (min-width: 768px) {
+        padding-top: 11rem;
+    }
+}
+
+.pic {
+    width: 100%;
+    box-shadow: 1px 2px 4px $pic-shadow;
+}
+
+figure {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.name {
+    font-family: $description, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: $name;
+    padding-top: 1rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: large;
+    }    
+}
+
+.position {
+    font-family: $description, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    padding: 0.2rem;
+    padding-top: 0.4rem;
+    height: 105px;
+    color: $position; 
+    box-shadow: -1px 1px 3px $pos-shadow;
+}
+
+.owner {
+    background-color: $bg-owner;
+}
+
+.art {
+    height: 90px;
+    background-color: $bg-owner;
+}
+
+.tech {
+    height: 65px;
+    background-color: $bg-owner;
+}
+
+.ux {
+    height: 80px;
+    background-color: $bg-owner;
+}
+
+.dev {
+    height: 65px;
+    background-color: $bg-owner;
+}

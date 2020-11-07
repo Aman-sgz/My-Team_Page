@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <link rel="icon" href="devchallenges.png" />
 
-    <title>Devchallenges My Team Page</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link rel="stylesheet" href="scss/styles.css">
+  <title>Devchallenges My Team Page</title>
 
-  </head>
+</head>
 
-  <body>
-    <header>
-      <h1>The creative crew</h1>
-    </header>
+<body>
+  <header>
+    <h1 class="header__title">The creative crew</h1>
+    <div class="header__description">
+      <h2 class="header__subtitle">Who we are</h2>
+      <p class="header__text">We are team of creatively diverse, driven, innovative individuals working in various
+        locations from the world.<p>
+    </div>
+  </header>
 
-    <main>
-      <h2>Who we are</h2>
-      <p>We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.<p>
+  <main>
+    <div class="grid-container">
 
-      <img src="assets/photo1.png" alt="Bill Mahoney">
-      <p>Product owner</p>
-      <img src="assets/photo2.png" alt="Saba Cabrera">
-      <p>Art director</p>
-      <img src="assets/photo3.png" alt="Shae Le">
-      <p>Tech Lead</p>
-      <img src="assets/photo4.png" alt="Skylah Lu">
-      <p>UX Designer</p>
-      <img src="assets/photo5.png" alt="Griff Richards">
-      <p>Developer</p>
-      <img src="assets/photo6.png" alt="Stan John">
-      <p>Developer</p>
-    </main>
+      <div class="grid-item">
+        <figure>
+          <img class="pic" src="assets/photo1.png" alt="Bill Mahoney">
+          <figcaption class="name">Bill Mahoney</figcaption>
+        </figure>
+        <p class="position owner">Product owner</p>
+      </div>
 
-    <footer>
-      <p class="attributions"><a href="https://github.com/Aman-sgz/404-not-found" target= "_blank">Aman-sgz</a></p>
-      <p class="attributions"><a href= "https://devchallenges.io" target="_blank"> @Devchallenges.io</a></p>
-    </footer>
-  </body>
+
+      <div class="grid-item">
+        <figure>
+          <img class="pic" src="assets/photo2.png" alt="Saba Cabrera">
+          <figcaption class="name">Saba Cabrera</figcaption>
+        </figure>
+        <p class="position art">Art director</p>
+      </div>
+
+      <div class="grid-item">
+        <figure>
+          <img class="pic" src="assets/photo3.png" alt="Shae Le">
+          <figcaption class="name">Shae Le</figcaption>
+        </figure>
+        <p class="position tech">Tech Lead</p>
+      </div>
+
+      <div class="grid-item">
+        <figure>
+          <img class="pic" src="assets/photo4.png" alt="Skylah Lu">
+          <figcaption class="name">Skylah Lu</figcaption>
+        </figure>
+        <p class="position ux">UX Designer</p>
+      </div>
+
+      <div class="grid-item">
+        <figure>
+          <img class="pic" src="assets/photo5.png" alt="Griff Richards">
+          <figcaption class="name">Griff Richards</figcaption>
+        </figure>
+        <p class="position dev">Developer</p>
+      </div>
+
+      <div class="grid-item">
+        <figure>
+          <img class="pic" src="assets/photo6.png" alt="Stan John">
+          <figcaption class="name">Stan John</figcaption>
+        </figure>
+        <p class="position dev">Developer</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution"><a href="https://github.com/Aman-sgz/404-not-found" target="_blank">Aman-sgz</a></p>
+    <p class="attribution"><a href="https://devchallenges.io" target="_blank"> @Devchallenges.io</a></p>
+  </footer>
+</body>
+
 </html>
