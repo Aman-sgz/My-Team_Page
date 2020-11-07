@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://my-team-page-xi.vercel.app/}">
+    <a href="https://{https://my-team-page-xi.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 ## Overview
 ![screenshot](https://raw.githubusercontent.com/Aman-sgz/My-Team-Page/master/assets/my-team.png)
 
-- You can see the [demo](https://my-team-page-xi.vercel.app)
+- You can see the demo at [My Team Page](https://my-team-page-xi.vercel.app)
 - Happy to work with grid. I've learned new css properties. I hope to continue improving my skills.
 
 ### Built With
