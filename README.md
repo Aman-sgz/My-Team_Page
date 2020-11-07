@@ -35,7 +35,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-![screenshot](https://raw.githubusercontent.com/Aman-sgz/my-team-page/master/assets/my-team.png)
+![screenshot](https://raw.githubusercontent.com/Aman-sgz/My-Team-Page/master/assets/my-team.png)
 
 - You can see the [demo](https://my-team-page-xi.vercel.app)
 - Happy to work with grid. I've learned new css properties. I hope to continue improving my skills.
