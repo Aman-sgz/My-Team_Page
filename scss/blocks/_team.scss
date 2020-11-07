@@ -8,6 +8,8 @@
     }
 
     @media screen and (min-width: 1200px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 4rem 3rem;
     }    
 }
 
@@ -40,6 +42,10 @@
 .pic {
     width: 100%;
     box-shadow: 1px 2px 4px $pic-shadow;
+
+    @media screen and (min-width: 1200px) {
+        width: 85%;
+    }
 }
 
 figure {
@@ -78,28 +84,44 @@ figure {
     height: 105px;
     color: $position; 
     box-shadow: -1px 1px 3px $pos-shadow;
+    background-color: $bg-position;
+
+    @media screen and (min-width: 1200px) {
+        margin-left: -60px;
+        font-size: 15px;
+        height: 145px;
+    }
 }
 
-.owner {
-    background-color: $bg-owner;
-}
 
 .art {
     height: 90px;
-    background-color: $bg-owner;
+
+    @media screen and (min-width: 1200px) {
+        height: 120px;
+    }
 }
 
 .tech {
     height: 65px;
-    background-color: $bg-owner;
+
+    @media screen and (min-width: 1200px) {
+        height: 90px;
+    }
 }
 
 .ux {
     height: 80px;
-    background-color: $bg-owner;
+
+    @media screen and (min-width: 1200px) {
+        height: 110px;
+    }
 }
 
 .dev {
     height: 65px;
-    background-color: $bg-owner;
+
+    @media screen and (min-width: 1200px) {
+        height: 90px;
+    }
 }
