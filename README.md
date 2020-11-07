@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://my-team-page-xi.vercel.app/">
+    <a href="https://https://my-team-page-xi.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-![screenshot](https://raw.githubusercontent.com/Aman-sgz/My-Team-Page/master/assets/my-team.png)
+![screenshot](https://raw.githubusercontent.com/Aman-sgz/My-Team_Page/master/assets/my-team.png)
 
 - You can see the demo at [My Team Page](https://my-team-page-xi.vercel.app)
 - Happy to work with grid. I've learned new css properties. I hope to continue improving my skills.
@@ -60,4 +60,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@Aman-sgz](https://{github.com/Aman-sgz})
+- GitHub [@Aman-sgz](https://github.com/Aman-sgz)
